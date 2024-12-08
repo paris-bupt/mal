@@ -1,0 +1,4 @@
+#!/bin/bash
+
+exec dotnet run --project $(dirname $0)/make-a-lisp/${STEP:-stepA_mal} "$@"
+
