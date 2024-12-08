@@ -1,4 +1,4 @@
-namespace step0;
+namespace step0_repl;
 
 public class LispInterpreter
 {
