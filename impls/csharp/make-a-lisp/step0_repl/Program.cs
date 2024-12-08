@@ -20,5 +20,5 @@ while (true)
 		break;
 	}
 	
-	Console.WriteLine(LispInterpreter.Print(LispInterpreter.Repl(line)));
+	Console.WriteLine(LispInterpreter.Repl(line));
 }

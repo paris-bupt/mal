@@ -19,6 +19,6 @@ public class LispInterpreter
 
 	public static string Repl(string str)
 	{
-		return Eval(Read(str));
+		return Print(Eval(Read(str)));
 	}
 }
